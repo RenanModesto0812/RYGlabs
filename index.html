@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>RYG LABS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+</head>
+
+<body>
+
+<header>
+  <img src="assets/logo2.png" class="logo" />
+ <nav>
+  <a href="#home">Home</a>
+  <a href="#sobre">Sobre</a>
+  <a href="#servicos">Serviços</a>
+  <a href="#projetos">Projetos</a>
+  <a href="#representantes">Representantes</a>
+  <a href="#contato">Contato</a>
+</nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>RYG LABS</h1>
+  <p>Transformamos ideias em soluções digitais.</p>
+  <button  onclick="scrollContato()"> <a href="#contato">Fale conosco</a></button>
+</section>
+
+<section id="sobre">
+  <h2>Sobre nós</h2>
+  <p>
+    A RYG LABS nasceu da união de desenvolvedores focados em criar sites,
+    sistemas e soluções modernas para empresas.
+  </p>
+</section>
+
+<section id="servicos">
+  <h2>Serviços</h2>
+
+  <div class="cards">
+    <div class="card">Criação de Sites</div>
+    <div class="card">Sistemas Web</div>
+    <div class="card">Automação</div>
+    <div class="card">Redes</div>
+  </div>
+  
+</section>
+<section id="projetos">
+  <h2>Projetos</h2>
+
+  <div class="cards">
+
+    <div class="card projeto">
+      <img src="assets/projetos/image.png">
+      <h3>Site Controle financeiro</h3>
+      <p>Website completo para controle financeiro.</p>
+      <a href="https://meu-bolsos.vercel.app/" target="_blank">VEJA AQUI</a>
+    </div>
+
+    <div class="card projeto">
+      <img src="assets/projetos/projeto2.jpg">
+      <h3>Sistema Web</h3>
+      <p>Painel administrativo com login.</p>
+    </div>
+
+    <div class="card projeto">
+      <img src="assets/projetos/projeto3.jpg">
+      <h3>Plataforma Digital</h3>
+      <p>Sistema personalizado.</p>
+    </div>
+
+  </div>
+</section>
+<section id="representantes">
+  <h2>Representantes</h2>
+
+  <div class="cards">
+
+    <div class="card representante">
+      <img src="assets/representantes/renan.png">
+      <h3>Renan</h3>
+      <p>Full Stack Developer</p>
+    </div>
+
+    <div class="card representante">
+      <img src="assets/representantes/yuri.png">
+      <h3>Yuri</h3>
+      <p>Frontend / UI Designer</p>
+    </div>
+
+    <div class="card representante">
+      <img src="assets/representantes/guilherme.png">
+      <h3>Guilherme</h3>
+      <p>Backend / Infraestrutura</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+
+  <div class="contato-box">
+
+    <div class="contato-info">
+      <p><strong>Email:</strong> contatoryglabs@gmail.com</p>
+      <p><strong>WhatsApp:</strong> (65) 99276-7280</p>
+      <p><strong>Atendimento:</strong> Seg à Sex - 9h às 18h</p>
+    </div>
+
+    <form id="formContato">
+      <input type="text" placeholder="Nome" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 RYG LABS
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
