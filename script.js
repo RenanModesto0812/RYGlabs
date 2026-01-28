@@ -34,7 +34,7 @@ form.addEventListener("submit", async (e) => {
     return;
   }
 
-  alert("Contato enviado! ✅");
+  alert("Entraremos em contato por email!");
   form.reset();
 });
 
@@ -62,3 +62,4 @@ if (menuBtn && navMenu) {
     }
   });
 }
+
